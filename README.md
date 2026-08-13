@@ -4,7 +4,7 @@ Static portfolio website ready for GitHub Pages, Vercel, Netlify, or any static 
 
 ## Contact links already configured
 - Fiverr: https://www.fiverr.com/users/safin_vasani
-- Email: safinvasani77@gmail.com
+- Email: safinvashani@gmail.com
 
 ## Deploy on Vercel
 1. Create a GitHub repository.
