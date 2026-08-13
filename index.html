@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="loader"><div class="loader-logo">S<span>.</span></div><div class="loader-line"><i></i></div><small>LOADING PORTFOLIO</small></div>
+<div class="particles" aria-hidden="true"></div>
 <div class="cursor-glow"></div>
 <div class="grain"></div>
 
@@ -89,10 +91,17 @@
   <div class="contact-inner reveal"><p class="kicker">LET'S WORK TOGETHER</p><h2>Your next video<br>deserves a <em>better click.</em></h2><p>Send me your title, idea or brief. Let's turn it into a thumbnail people notice.</p><div class="contact-buttons"><a class="btn primary" href="https://www.fiverr.com/users/safin_vasani" target="_blank" rel="noopener">Hire Me on Fiverr ↗</a><a class="btn ghost" href="https://www.facebook.com/share/1FQBGMkXBJ/" target="_blank" rel="noopener">Facebook ↗</a><a class="btn ghost" href="mailto:safinvasani77@gmail.com">Email ↗</a></div></div>
 </section>
 </main>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="#home" class="active"><span>⌂</span>Home</a>
+  <a href="#work"><span>▦</span>Work</a>
+  <a href="#services"><span>✦</span>Services</a>
+  <a href="#contact"><span>↗</span>Hire</a>
+</nav>
 
 <footer><span>© 2026 S. M. Safin</span><span>THUMBNAIL DESIGNER · ALL NICHES</span></footer>
 
 <script>
+window.addEventListener('load',()=>setTimeout(()=>document.body.classList.add('loaded'),550));
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(e=>observer.observe(e));
 
@@ -110,6 +119,14 @@ document.querySelectorAll('.thumb img').forEach(img=>img.addEventListener('click
   document.body.appendChild(light);
   light.addEventListener('click',e=>{if(e.target===light||e.target.tagName==='BUTTON')light.remove()});
 }));
+const mobileLinks=[...document.querySelectorAll('.mobile-nav a')];
+const sections=['home','work','services','contact'].map(id=>document.getElementById(id));
+const navObserver=new IntersectionObserver(entries=>entries.forEach(e=>{
+  if(e.isIntersecting){
+    mobileLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));
+  }
+}),{rootMargin:'-45% 0px -45% 0px',threshold:0});
+sections.forEach(s=>s&&navObserver.observe(s));
 </script>
 </body>
-                                                                                                                                                                                                                                                     </html>
+                                      </html>                                                                                                                        
