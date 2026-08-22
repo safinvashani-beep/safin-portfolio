@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 <meta charset="utf-8">
 
 <meta name="viewport"
@@ -12,13 +13,25 @@
 
 <title>S.M Safin — Thumbnail Designer</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- GOOGLE FONTS -->
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+
+<!-- CSS -->
+
+<link rel="stylesheet"
+      href="style.css">
+
 </head>
 
 
@@ -44,7 +57,9 @@
 </div>
 
 
-<div class="particles" aria-hidden="true"></div>
+<div class="particles"
+     aria-hidden="true">
+</div>
 
 <div class="cursor-glow"></div>
 
@@ -56,11 +71,11 @@
 
 <header class="topbar">
 
-  <a class="logo" href="#home">
+  <a class="logo"
+     href="#home">
 
     <span>S</span>
-    SAFIN
-    <span class="red">.</span>
+    SAFIN<span class="red">.</span>
 
   </a>
 
@@ -79,6 +94,7 @@
       About
     </a>
 
+
     <a class="hire-small"
        href="https://www.fiverr.com/users/safin_vasani"
        target="_blank"
@@ -94,13 +110,13 @@
 
 
 
+<!-- ================= MAIN ================= -->
+
 <main id="home">
 
 
 
-<!-- ===================================================== -->
-<!-- ======================= HERO ======================== -->
-<!-- ===================================================== -->
+<!-- ================= HERO ================= -->
 
 <section class="hero">
 
@@ -113,6 +129,7 @@
     <div class="availability">
 
       <i></i>
+
       AVAILABLE FOR NEW PROJECTS
 
     </div>
@@ -129,26 +146,21 @@
 
       Designs that<br>
 
-      <em>
-        earn the click.
-      </em>
+      <em>earn the click.</em>
 
     </h1>
 
 
     <p class="hero-text">
 
-      Professional, high-impact thumbnails built to stop
-      the scroll, create curiosity and make your video
-      impossible to ignore.
+      Professional, high-impact thumbnails built to stop the scroll,
+      create curiosity and make your video impossible to ignore.
 
       <strong>
-        Gaming, tech, education, business, travel,
-        finance and more.
+        Gaming, tech, education, business, travel, finance and more.
       </strong>
 
     </p>
-
 
 
     <!-- BUTTONS -->
@@ -160,6 +172,7 @@
          href="#work">
 
         View Portfolio
+
         <span>↓</span>
 
       </a>
@@ -178,7 +191,6 @@
     </div>
 
 
-
     <!-- PROOF -->
 
     <div class="proof">
@@ -186,9 +198,7 @@
 
       <div>
 
-        <b>
-          15+
-        </b>
+        <b>15+</b>
 
         <small>
           THUMBNAILS
@@ -199,9 +209,7 @@
 
       <div>
 
-        <b>
-          ANY
-        </b>
+        <b>ANY</b>
 
         <small>
           NICHE
@@ -212,9 +220,7 @@
 
       <div>
 
-        <b>
-          100%
-        </b>
+        <b>100%</b>
 
         <small>
           CUSTOM
@@ -230,7 +236,7 @@
 
 
 
-  <!-- HERO VISUAL -->
+  <!-- ================= HERO SLIDER ================= -->
 
   <div class="hero-visual reveal">
 
@@ -238,42 +244,103 @@
     <div class="halo"></div>
 
 
+    <div class="hero-slider"
+         id="heroSlider">
 
-    <!-- GTA -->
 
-    <div class="frame frame-a">
+      <!-- IMAGE 1 -->
 
-      <img
-        src="assets/gta-persistent.png"
-        alt="GTA V thumbnail design">
+      <div class="hero-slide active">
+
+        <img src="assets/education.png"
+             alt="Study Effectively thumbnail">
+
+      </div>
+
+
+      <!-- IMAGE 2 -->
+
+      <div class="hero-slide">
+
+        <img src="assets/gta-persistent.png"
+             alt="GTA V Be Persistent thumbnail">
+
+      </div>
+
+
+      <!-- IMAGE 3 -->
+
+      <div class="hero-slide">
+
+        <img src="assets/bank-heist.png"
+             alt="Bank Heist thumbnail">
+
+      </div>
+
+
+      <!-- IMAGE 4 -->
+
+      <div class="hero-slide">
+
+        <img src="assets/gta-10m-heist.png"
+             alt="GTA 10M Heist thumbnail">
+
+      </div>
+
+
+      <!-- IMAGE 5 -->
+
+      <div class="hero-slide">
+
+        <img src="assets/gta-new-legend.png"
+             alt="GTA New Legend thumbnail">
+
+      </div>
+
+
+      <!-- IMAGE 6 -->
+
+      <div class="hero-slide">
+
+        <img src="assets/work smart.png"
+             alt="Work Smart thumbnail">
+
+      </div>
+
 
     </div>
 
 
 
-    <!-- BANK HEIST -->
+    <!-- SLIDER DOTS -->
 
-    <div class="frame frame-b">
+    <div class="hero-dots"
+         id="heroDots">
 
-      <img
-        src="assets/bank-heist.png"
-        alt="Bank heist gaming thumbnail">
+      <button class="active"
+              aria-label="Slide 1">
+      </button>
+
+      <button aria-label="Slide 2">
+      </button>
+
+      <button aria-label="Slide 3">
+      </button>
+
+      <button aria-label="Slide 4">
+      </button>
+
+      <button aria-label="Slide 5">
+      </button>
+
+      <button aria-label="Slide 6">
+      </button>
 
     </div>
 
 
 
-    <!-- EDUCATION -->
-
-    <div class="frame frame-c">
-
-      <img
-        src="assets/education.png"
-        alt="Study effectively thumbnail">
-
-    </div>
-
-
+    <!-- LABEL -->
 
     <div class="floating-label">
 
@@ -295,9 +362,7 @@
 
 
 
-<!-- ===================================================== -->
-<!-- ====================== MARQUEE ====================== -->
-<!-- ===================================================== -->
+<!-- ================= MARQUEE ================= -->
 
 <section class="marquee">
 
@@ -329,11 +394,10 @@
 
 
 
-<!-- ===================================================== -->
-<!-- ===================== PORTFOLIO ===================== -->
-<!-- ===================================================== -->
+<!-- ================= PORTFOLIO ================= -->
 
-<section class="section" id="work">
+<section class="section"
+         id="work">
 
 
   <div class="section-title reveal">
@@ -350,9 +414,7 @@
 
         My work,<br>
 
-        <em>
-          built to get clicks.
-        </em>
+        <em>built to get clicks.</em>
 
       </h2>
 
@@ -374,68 +436,61 @@
 
 
 
-  <!-- FILTER BUTTONS -->
+  <!-- FILTERS -->
 
   <div class="filters">
 
 
-    <button
-      class="filter active"
-      data-filter="all">
+    <button class="filter active"
+            data-filter="all">
 
       All
 
     </button>
 
 
-    <button
-      class="filter"
-      data-filter="gaming">
+    <button class="filter"
+            data-filter="gaming">
 
       Gaming
 
     </button>
 
 
-    <button
-      class="filter"
-      data-filter="tech">
+    <button class="filter"
+            data-filter="tech">
 
       Tech
 
     </button>
 
 
-    <button
-      class="filter"
-      data-filter="education">
+    <button class="filter"
+            data-filter="education">
 
       Education
 
     </button>
 
 
-    <button
-      class="filter"
-      data-filter="travel">
+    <button class="filter"
+            data-filter="travel">
 
       Travel
 
     </button>
 
 
-    <button
-      class="filter"
-      data-filter="business">
+    <button class="filter"
+            data-filter="business">
 
       Business
 
     </button>
 
 
-    <button
-      class="filter"
-      data-filter="more">
+    <button class="filter"
+            data-filter="more">
 
       More
 
@@ -446,32 +501,26 @@
 
 
 
-  <!-- ================= WORK GRID ================= -->
+  <!-- WORK GRID -->
 
   <div class="grid">
 
 
+    <!-- GAMING -->
 
-    <!-- ================= GAMING ================= -->
-
-
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/bank-heist.png"
-          alt="Bank Heist GTA V thumbnail">
+        <img src="assets/bank-heist.png"
+             alt="Bank Heist GTA V thumbnail">
 
         <span>
           GAMING
         </span>
 
       </div>
-
 
       <h3>
         Bank Heist
@@ -481,28 +530,23 @@
         GTA V · Action
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/gta-10m-heist.png"
-          alt="GTA 10M Heist thumbnail">
+        <img src="assets/gta-10m-heist.png"
+             alt="GTA 10M Heist thumbnail">
 
         <span>
           GTA V
         </span>
 
       </div>
-
 
       <h3>
         10M Heist
@@ -512,28 +556,23 @@
         GTA V · Challenge
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/gta-new-legend.png"
-          alt="GTA New Legend thumbnail">
+        <img src="assets/gta-new-legend.png"
+             alt="GTA New Legend thumbnail">
 
         <span>
           GTA V
         </span>
 
       </div>
-
 
       <h3>
         New Legend
@@ -543,28 +582,23 @@
         GTA V · Story
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/gta-no-rules.png"
-          alt="GTA No Rules thumbnail">
+        <img src="assets/gta-no-rules.png"
+             alt="GTA No Rules thumbnail">
 
         <span>
           GAMING
         </span>
 
       </div>
-
 
       <h3>
         No Rules
@@ -574,28 +608,23 @@
         GTA V · Chaos
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/gta-persistent.png"
-          alt="GTA Persistent thumbnail">
+        <img src="assets/gta-persistent.png"
+             alt="GTA Persistent thumbnail">
 
         <span>
           GTA V
         </span>
 
       </div>
-
 
       <h3>
         Be Persistent
@@ -605,28 +634,23 @@
         GTA V · Motivation
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/last-zone-king.png"
-          alt="Last Zone King gaming thumbnail">
+        <img src="assets/last-zone-king.png"
+             alt="Last Zone King gaming thumbnail">
 
         <span>
           GAMING
         </span>
 
       </div>
-
 
       <h3>
         Last Zone King
@@ -636,28 +660,23 @@
         Gaming · Survival
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/gaming-100-days.png"
-          alt="I Survived 100 Days thumbnail">
+        <img src="assets/gaming-100-days.png"
+             alt="I Survived 100 Days thumbnail">
 
         <span>
           GAMING
         </span>
 
       </div>
-
 
       <h3>
         I Survived 100 Days
@@ -667,28 +686,23 @@
         Gaming · Challenge
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="gaming">
-
+    <article class="work-card reveal"
+             data-cat="gaming">
 
       <div class="thumb">
 
-        <img
-          src="assets/pc-setup.png"
-          alt="Gaming Setup thumbnail">
+        <img src="assets/pc-setup.png"
+             alt="Gaming Setup thumbnail">
 
         <span>
           GAMING / TECH
         </span>
 
       </div>
-
 
       <h3>
         My Gaming Setup
@@ -698,31 +712,25 @@
         Gaming · PC Setup
       </p>
 
-
     </article>
 
 
 
-    <!-- ================= TECH ================= -->
+    <!-- TECH -->
 
-
-    <article
-      class="work-card reveal"
-      data-cat="tech">
-
+    <article class="work-card reveal"
+             data-cat="tech">
 
       <div class="thumb">
 
-        <img
-          src="assets/phone-1.png"
-          alt="Best Phone Under 200 thumbnail">
+        <img src="assets/phone-1.png"
+             alt="Best Phone Under 200 thumbnail">
 
         <span>
           TECH
         </span>
 
       </div>
-
 
       <h3>
         Best Phone Under $200
@@ -732,31 +740,25 @@
         Tech · Smartphone
       </p>
 
-
     </article>
 
 
 
-    <!-- ================= EDUCATION ================= -->
+    <!-- EDUCATION -->
 
-
-    <article
-      class="work-card reveal"
-      data-cat="education">
-
+    <article class="work-card reveal"
+             data-cat="education">
 
       <div class="thumb">
 
-        <img
-          src="assets/education.png"
-          alt="How I Study Effectively thumbnail">
+        <img src="assets/education.png"
+             alt="How I Study Effectively thumbnail">
 
         <span>
           EDUCATION
         </span>
 
       </div>
-
 
       <h3>
         How I Study Effectively
@@ -766,33 +768,23 @@
         Education · Study
       </p>
 
-
     </article>
 
 
 
-    <!-- WORK SMART -->
-    <!-- IMPORTANT:
-         GitHub filename = "work smart.png"
-         Space encoded as %20 -->
-
-    <article
-      class="work-card reveal"
-      data-cat="education">
-
+    <article class="work-card reveal"
+             data-cat="education">
 
       <div class="thumb">
 
-        <img
-          src="assets/work%20smart.png"
-          alt="Work Smart thumbnail">
+        <img src="assets/work smart.png"
+             alt="Work Smart thumbnail">
 
         <span>
           EDUCATION
         </span>
 
       </div>
-
 
       <h3>
         Work Smart
@@ -802,31 +794,25 @@
         Education · Productivity
       </p>
 
-
     </article>
 
 
 
-    <!-- ================= TRAVEL ================= -->
+    <!-- TRAVEL -->
 
-
-    <article
-      class="work-card reveal"
-      data-cat="travel">
-
+    <article class="work-card reveal"
+             data-cat="travel">
 
       <div class="thumb">
 
-        <img
-          src="assets/bali.png"
-          alt="Exploring Bali thumbnail">
+        <img src="assets/bali.png"
+             alt="Exploring Bali thumbnail">
 
         <span>
           TRAVEL
         </span>
 
       </div>
-
 
       <h3>
         Exploring Bali
@@ -836,28 +822,23 @@
         Travel · Adventure
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="travel">
-
+    <article class="work-card reveal"
+             data-cat="travel">
 
       <div class="thumb">
 
-        <img
-          src="assets/dubai.png"
-          alt="My First Day in Dubai thumbnail">
+        <img src="assets/dubai.png"
+             alt="My First Day in Dubai thumbnail">
 
         <span>
           TRAVEL
         </span>
 
       </div>
-
 
       <h3>
         My First Day in Dubai
@@ -867,31 +848,25 @@
         Travel · Lifestyle
       </p>
 
-
     </article>
 
 
 
-    <!-- ================= BUSINESS ================= -->
+    <!-- BUSINESS -->
 
-
-    <article
-      class="work-card reveal"
-      data-cat="business">
-
+    <article class="work-card reveal"
+             data-cat="business">
 
       <div class="thumb">
 
-        <img
-          src="assets/money.png"
-          alt="Make 10000 Online thumbnail">
+        <img src="assets/money.png"
+             alt="Make 10000 Online thumbnail">
 
         <span>
           BUSINESS
         </span>
 
       </div>
-
 
       <h3>
         Make $10,000 Online
@@ -901,28 +876,23 @@
         Business · Finance
       </p>
 
-
     </article>
 
 
 
-    <article
-      class="work-card reveal"
-      data-cat="business">
-
+    <article class="work-card reveal"
+             data-cat="business">
 
       <div class="thumb">
 
-        <img
-          src="assets/online-income.png"
-          alt="How I Made 10000 Online thumbnail">
+        <img src="assets/online-income.png"
+             alt="How I Made 10000 Online thumbnail">
 
         <span>
           BUSINESS
         </span>
 
       </div>
-
 
       <h3>
         How I Made $10,000 Online
@@ -932,9 +902,7 @@
         Business · Online Income
       </p>
 
-
     </article>
-
 
 
   </div>
@@ -943,11 +911,10 @@
 
 
 
-<!-- ===================================================== -->
-<!-- ====================== SERVICES ===================== -->
-<!-- ===================================================== -->
+<!-- ================= SERVICES ================= -->
 
-<section class="section dark" id="services">
+<section class="section dark"
+         id="services">
 
 
   <div class="section-title reveal">
@@ -964,9 +931,7 @@
 
         One designer.<br>
 
-        <em>
-          Every niche.
-        </em>
+        <em>Every niche.</em>
 
       </h2>
 
@@ -976,8 +941,8 @@
     <p>
 
       Tell me what your video is about.
-      I'll build the visual direction around
-      your audience, topic and goal.
+      I'll build the visual direction around your audience,
+      topic and goal.
 
     </p>
 
@@ -998,8 +963,8 @@
       </h3>
 
       <p>
-        GTA, Free Fire, PUBG, survival,
-        challenges, action and gaming stories.
+        GTA, Free Fire, PUBG, survival, challenges,
+        action and gaming stories.
       </p>
 
     </div>
@@ -1049,8 +1014,8 @@
       </h3>
 
       <p>
-        Destinations, adventures, travel
-        stories, vlogs and lifestyle.
+        Destinations, adventures, travel stories,
+        vlogs and lifestyle.
       </p>
 
     </div>
@@ -1130,11 +1095,10 @@
 
 
 
-<!-- ===================================================== -->
-<!-- ======================== ABOUT ====================== -->
-<!-- ===================================================== -->
+<!-- ================= ABOUT ================= -->
 
-<section class="section about" id="about">
+<section class="section about"
+         id="about">
 
 
   <div class="about-copy reveal">
@@ -1149,9 +1113,7 @@
 
       I'm S. M. Safin —<br>
 
-      <em>
-        your thumbnail designer.
-      </em>
+      <em>your thumbnail designer.</em>
 
     </h2>
 
@@ -1159,16 +1121,16 @@
     <p>
 
       I create thumbnails designed to communicate
-      the video idea instantly, create curiosity
-      and look strong even at small sizes.
+      the video idea instantly, create curiosity and
+      look strong even at small sizes.
 
     </p>
 
 
     <p>
 
-      My work covers gaming, tech, education,
-      travel, business, finance and other niches.
+      My work covers gaming, tech, education, travel,
+      business, finance and other niches.
       Every design gets its own visual direction.
 
     </p>
@@ -1250,11 +1212,10 @@
 
 
 
-<!-- ===================================================== -->
-<!-- ======================= CONTACT ===================== -->
-<!-- ===================================================== -->
+<!-- ================= CONTACT ================= -->
 
-<section class="contact" id="contact">
+<section class="contact"
+         id="contact">
 
 
   <div class="contact-inner reveal">
@@ -1269,10 +1230,7 @@
 
       Your next video<br>
 
-      deserves a
-      <em>
-        better click.
-      </em>
+      deserves a <em>better click.</em>
 
     </h2>
 
@@ -1285,37 +1243,31 @@
     </p>
 
 
-
     <div class="contact-buttons">
 
 
-      <a
-        class="btn primary"
-        href="https://www.fiverr.com/users/safin_vasani"
-        target="_blank"
-        rel="noopener">
+      <a class="btn primary"
+         href="https://www.fiverr.com/users/safin_vasani"
+         target="_blank"
+         rel="noopener">
 
         Hire Me on Fiverr ↗
 
       </a>
 
 
-
-      <a
-        class="btn ghost"
-        href="https://www.facebook.com/share/1FQBGMkXBJ/"
-        target="_blank"
-        rel="noopener">
+      <a class="btn ghost"
+         href="https://www.facebook.com/share/1FQBGMkXBJ/"
+         target="_blank"
+         rel="noopener">
 
         Facebook ↗
 
       </a>
 
 
-
-      <a
-        class="btn ghost"
-        href="mailto:safinvasani77@gmail.com">
+      <a class="btn ghost"
+         href="mailto:safinvasani77@gmail.com">
 
         Email ↗
 
@@ -1330,63 +1282,47 @@
 </section>
 
 
-
 </main>
 
 
 
-<!-- ===================================================== -->
-<!-- ===================== MOBILE NAV ==================== -->
-<!-- ===================================================== -->
+<!-- ================= MOBILE NAV ================= -->
 
-<nav
-  class="mobile-nav"
-  aria-label="Mobile navigation">
+<nav class="mobile-nav"
+     aria-label="Mobile navigation">
 
 
-  <a
-    href="#home"
-    class="active">
+  <a href="#home"
+     class="active">
 
-    <span>
-      ⌂
-    </span>
+    <span>⌂</span>
 
     Home
 
   </a>
 
 
-
   <a href="#work">
 
-    <span>
-      ▦
-    </span>
+    <span>▦</span>
 
     Work
 
   </a>
 
 
-
   <a href="#services">
 
-    <span>
-      ✦
-    </span>
+    <span>✦</span>
 
     Services
 
   </a>
 
 
-
   <a href="#contact">
 
-    <span>
-      ↗
-    </span>
+    <span>↗</span>
 
     Hire
 
@@ -1397,423 +1333,468 @@
 
 
 
-<!-- ===================================================== -->
-<!-- ======================== FOOTER ===================== -->
-<!-- ===================================================== -->
+<!-- ================= FOOTER ================= -->
 
 <footer>
-
 
   <span>
     © 2026 S. M. Safin
   </span>
 
-
   <span>
     THUMBNAIL DESIGNER · ALL NICHES
   </span>
-
 
 </footer>
 
 
 
-<!-- ===================================================== -->
-<!-- ======================= JAVASCRIPT ================== -->
-<!-- ===================================================== -->
+<!-- ================= JAVASCRIPT ================= -->
 
 <script>
 
 
-/* ===================================================== */
-/* LOADER */
-/* ===================================================== */
+/* ================= LOADER ================= */
 
-window.addEventListener(
-  'load',
-  () => {
+window.addEventListener("load", () => {
 
-    setTimeout(
-      () => {
+  setTimeout(() => {
 
-        document.body.classList.add('loaded');
+    document.body.classList.add("loaded");
 
-      },
-      550
-    );
+  }, 550);
 
+});
+
+
+
+/* ================= REVEAL ANIMATION ================= */
+
+const observer =
+new IntersectionObserver(
+
+  entries => {
+
+    entries.forEach(entry => {
+
+      if(entry.isIntersecting){
+
+        entry.target.classList.add("visible");
+
+      }
+
+    });
+
+  },
+
+  {
+    threshold:0.12
   }
+
 );
 
 
-
-/* ===================================================== */
-/* REVEAL ANIMATION */
-/* ===================================================== */
-
-const revealObserver =
-  new IntersectionObserver(
-
-    entries => {
-
-      entries.forEach(
-        entry => {
-
-          if (entry.isIntersecting) {
-
-            entry.target.classList.add(
-              'visible'
-            );
-
-          }
-
-        }
-      );
-
-    },
-
-    {
-      threshold: 0.12
-    }
-
-  );
-
-
 document
-  .querySelectorAll('.reveal')
-  .forEach(
-    element =>
-      revealObserver.observe(element)
-  );
+.querySelectorAll(".reveal")
+.forEach(element => {
+
+  observer.observe(element);
+
+});
 
 
 
-/* ===================================================== */
-/* FILTER SYSTEM */
-/* ===================================================== */
+/* ================= FILTER SYSTEM ================= */
 
 const filters =
-  document.querySelectorAll('.filter');
+document.querySelectorAll(".filter");
 
 const cards =
-  document.querySelectorAll('.work-card');
+document.querySelectorAll(".work-card");
 
 
-filters.forEach(
-  button => {
-
-    button.addEventListener(
-      'click',
-      () => {
+filters.forEach(button => {
 
 
-        /* Remove active */
-
-        filters.forEach(
-          btn =>
-            btn.classList.remove('active')
-        );
+  button.addEventListener("click", () => {
 
 
-        /* Add active */
+    filters.forEach(btn => {
 
-        button.classList.add('active');
+      btn.classList.remove("active");
 
-
-        const filter =
-          button.dataset.filter;
+    });
 
 
-        cards.forEach(
-          card => {
-
-            const category =
-              card.dataset.cat;
+    button.classList.add("active");
 
 
-            /*
-              ALL
-            */
-
-            if (filter === 'all') {
-
-              card.style.display = 'block';
-
-            }
+    const filter =
+    button.dataset.filter;
 
 
-            /*
-              SPECIFIC CATEGORY
-            */
-
-            else if (
-              category === filter
-            ) {
-
-              card.style.display = 'block';
-
-            }
+    cards.forEach(card => {
 
 
-            /*
-              MORE
-              Currently shows any future
-              category that isn't the main ones.
-            */
-
-            else if (
-              filter === 'more' &&
-              ![
-                'gaming',
-                'tech',
-                'education',
-                'travel',
-                'business'
-              ].includes(category)
-            ) {
-
-              card.style.display = 'block';
-
-            }
+      const category =
+      card.dataset.cat;
 
 
-            /*
-              HIDE
-            */
+      if(
+        filter === "all" ||
+        category === filter
+      ){
 
-            else {
+        card.style.display = "block";
 
-              card.style.display = 'none';
+      }
 
-            }
+      else{
 
-          }
-        );
+        card.style.display = "none";
+
+      }
+
+
+    });
+
+
+  });
+
+
+});
+
+
+
+/* ================= LIGHTBOX ================= */
+
+document
+.querySelectorAll(".thumb img")
+.forEach(img => {
+
+
+  img.addEventListener("click", () => {
+
+
+    const light =
+    document.createElement("div");
+
+
+    light.className =
+    "lightbox";
+
+
+    light.innerHTML = `
+
+      <button
+        aria-label="Close">
+        ×
+      </button>
+
+      <img
+        src="${img.src}"
+        alt="">
+
+    `;
+
+
+    document.body
+    .appendChild(light);
+
+
+    light.addEventListener(
+      "click",
+      event => {
+
+
+        if(
+          event.target === light ||
+          event.target.tagName === "BUTTON"
+        ){
+
+          light.remove();
+
+        }
+
 
       }
     );
 
-  }
-);
+
+  });
+
+
+});
 
 
 
-/* ===================================================== */
-/* LIGHTBOX */
-/* ===================================================== */
-
-document
-  .querySelectorAll('.thumb img')
-  .forEach(
-    img => {
-
-
-      img.addEventListener(
-        'click',
-        () => {
-
-
-          const light =
-            document.createElement('div');
-
-
-          light.className =
-            'lightbox';
-
-
-          light.innerHTML = `
-            <button aria-label="Close">
-              ×
-            </button>
-
-            <img
-              src="${img.src}"
-              alt="${img.alt}">
-          `;
-
-
-          document.body.appendChild(
-            light
-          );
-
-
-          light.addEventListener(
-            'click',
-            event => {
-
-
-              if (
-                event.target === light ||
-                event.target.tagName === 'BUTTON'
-              ) {
-
-                light.remove();
-
-              }
-
-            }
-          );
-
-
-        }
-      );
-
-
-    }
-  );
-
-
-
-/* ===================================================== */
-/* ESCAPE KEY FOR LIGHTBOX */
-/* ===================================================== */
-
-document.addEventListener(
-  'keydown',
-  event => {
-
-    if (
-      event.key === 'Escape'
-    ) {
-
-      const lightbox =
-        document.querySelector('.lightbox');
-
-      if (lightbox) {
-
-        lightbox.remove();
-
-      }
-
-    }
-
-  }
-);
-
-
-
-/* ===================================================== */
-/* MOBILE NAV */
-/* ===================================================== */
+/* ================= MOBILE NAV ================= */
 
 const mobileLinks =
-  [
-    ...document.querySelectorAll(
-      '.mobile-nav a'
-    )
-  ];
+[
+  ...document.querySelectorAll(
+    ".mobile-nav a"
+  )
+];
 
 
 const sections =
-  [
-    'home',
-    'work',
-    'services',
-    'contact'
-  ]
-  .map(
-    id =>
-      document.getElementById(id)
-  );
+[
+  "home",
+  "work",
+  "services",
+  "contact"
+]
+.map(id =>
+  document.getElementById(id)
+);
 
 
 const navObserver =
-  new IntersectionObserver(
+new IntersectionObserver(
 
-    entries => {
-
-      entries.forEach(
-        entry => {
-
-          if (
-            entry.isIntersecting
-          ) {
+  entries => {
 
 
-            mobileLinks.forEach(
-              link => {
-
-                link.classList.toggle(
-
-                  'active',
-
-                  link.getAttribute(
-                    'href'
-                  ) ===
-                  '#' +
-                  entry.target.id
-
-                );
-
-              }
-            );
+    entries.forEach(entry => {
 
 
-          }
+      if(entry.isIntersecting){
 
-        }
+
+        mobileLinks.forEach(link => {
+
+
+          link.classList.toggle(
+
+            "active",
+
+            link.getAttribute("href") ===
+            "#" + entry.target.id
+
+          );
+
+
+        });
+
+
+      }
+
+
+    });
+
+
+  },
+
+  {
+    rootMargin:"-45% 0px -45% 0px",
+    threshold:0
+  }
+
+);
+
+
+sections.forEach(section => {
+
+  if(section){
+
+    navObserver.observe(section);
+
+  }
+
+});
+
+
+
+/* ================= HERO SWIPE SLIDER ================= */
+
+const heroSlider =
+document.getElementById("heroSlider");
+
+const heroSlides =
+[
+  ...document.querySelectorAll(
+    ".hero-slide"
+  )
+];
+
+const heroDots =
+[
+  ...document.querySelectorAll(
+    "#heroDots button"
+  )
+];
+
+
+let heroIndex = 0;
+
+let touchStartX = 0;
+
+let touchEndX = 0;
+
+
+
+/* CHANGE SLIDE */
+
+function showHeroSlide(index){
+
+
+  heroIndex =
+  (index + heroSlides.length)
+  % heroSlides.length;
+
+
+  heroSlides.forEach(
+    (slide, i) => {
+
+      slide.classList.toggle(
+        "active",
+        i === heroIndex
       );
 
-    },
-
-    {
-      rootMargin:
-        '-45% 0px -45% 0px',
-
-      threshold: 0
     }
-
   );
 
 
-sections.forEach(
-  section => {
+  heroDots.forEach(
+    (dot, i) => {
 
-    if (section) {
-
-      navObserver.observe(
-        section
+      dot.classList.toggle(
+        "active",
+        i === heroIndex
       );
 
     }
+  );
+
+
+}
+
+
+
+/* DOT CLICK */
+
+heroDots.forEach(
+  (dot, index) => {
+
+
+    dot.addEventListener(
+      "click",
+      () => {
+
+        showHeroSlide(index);
+
+      }
+    );
+
 
   }
 );
 
 
 
-/* ===================================================== */
-/* IMAGE ERROR HANDLER */
-/* ===================================================== */
+/* TOUCH START */
 
-/*
-  If an image fails to load, add a class
-  instead of leaving a confusing broken
-  image state.
-*/
+heroSlider.addEventListener(
+  "touchstart",
 
-document
-  .querySelectorAll('img')
-  .forEach(
-    img => {
+  event => {
 
-      img.addEventListener(
-        'error',
-        () => {
+    touchStartX =
+    event.changedTouches[0].screenX;
 
-          img.classList.add(
-            'image-error'
-          );
+  },
 
-        }
+  {
+    passive:true
+  }
+
+);
+
+
+
+/* TOUCH END */
+
+heroSlider.addEventListener(
+  "touchend",
+
+  event => {
+
+
+    touchEndX =
+    event.changedTouches[0].screenX;
+
+
+    const difference =
+    touchStartX - touchEndX;
+
+
+
+    /* SWIPE LEFT */
+
+    if(difference > 50){
+
+      showHeroSlide(
+        heroIndex + 1
       );
 
     }
-  );
+
+
+
+    /* SWIPE RIGHT */
+
+    else if(difference < -50){
+
+      showHeroSlide(
+        heroIndex - 1
+      );
+
+    }
+
+
+  },
+
+  {
+    passive:true
+  }
+
+);
+
+
+
+/* ================= KEYBOARD SUPPORT ================= */
+
+document.addEventListener(
+  "keydown",
+  event => {
+
+
+    if(event.key === "ArrowRight"){
+
+      showHeroSlide(
+        heroIndex + 1
+      );
+
+    }
+
+
+    if(event.key === "ArrowLeft"){
+
+      showHeroSlide(
+        heroIndex - 1
+      );
+
+    }
+
+
+  }
+);
 
 
 </script>
 
 
 </body>
-      </html> 
+
+            </html>
